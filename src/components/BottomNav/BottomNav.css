@@ -1,0 +1,22 @@
+/* This style is for larger devices */
+.bottom-nav-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+  }
+  
+  /* This style is for smaller devices */
+  @media (max-width: 768px) {
+    .bottom-nav-content {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 24px;
+      background-color: #fff;
+      border-top: 1px solid #e5e5e5;
+    }
+  }
+  
